@@ -4,6 +4,7 @@ radius = 20
 cost = 35
 
 perimeter = (2*length + breadth + 3.14*radius)
-total_cost = perimeter*cost
+total_cost = 5*(perimeter*cost)
+
 
 print(f'Total cost of fencing the feild is {total_cost}')
