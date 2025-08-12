@@ -1,0 +1,5 @@
+num1=int(input('Enter principal amount :'))
+num2=int(input('Enter time :'))
+num3=int(input('Enter rate :'))
+Simple_Interest=((num1*num2*num3)/100)
+print(f'The simple interest of given input is {Simple_Interest}')
